@@ -3,11 +3,9 @@ import Image from "next/image";
 import { FaStar, FaShoppingCart } from "react-icons/fa";
 
 const ProductDetails =async ({ params }) => {
-  const { id } = await params;
-  console.log(id);
-  
-  // const product=await getSingleProducts(id)
-  // console.log(product);
+  const { id } =  params;
+
+
   const product=await getSingleProducts(id)
   const {
     title,
