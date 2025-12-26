@@ -36,9 +36,9 @@ const Navbar = () => {
                 />{" "}
               </svg>
             </div>
-            <ul className="space-x-1"
+            <ul className="space-x-1 menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              
             >
               {nav}
             </ul>
